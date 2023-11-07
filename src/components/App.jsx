@@ -1,9 +1,9 @@
-import Card from './Card/Card';
+import Profile from './Profile/Profile';
 
 export const App = () => {
   return (
     <main>
-      <Card />
+      <Profile />
       <div
         style={{
           height: '100vh',
