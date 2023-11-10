@@ -1,0 +1,34 @@
+.Table {
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+.Table td,
+.Table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 200px;
+  text-align: center;
+}
+
+.Table td {
+  text-transform: capitalize;
+}
+
+.Table tr:nth-child(even) {
+  background-color: #ecf1f4;
+}
+
+.Table tr:hover {
+  background-color: #ddd;
+}
+
+.Table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #00bcd5;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
